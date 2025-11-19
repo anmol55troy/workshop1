@@ -3,51 +3,83 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Anmol Acharya</title>
-	<link rel ="stylesheet" type="text/css" href="C:\Users\Acer\Desktop\portfolio-Anmol Acharya\css\style.css">
+	<title> Anmol Acharya - Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\Acer\Desktop\portfolio-Anmol Acharya\css\style.css">
 </head>
 <body>
-<header>
-	<nav>
-	<ul>
-	   <li><a href="#about"id="about">About</a></li>
-	   <li><a href="#projects" id ="projects">Projects</a></li>
-	   <li><a href="#contact" id ="contacts">Contact</a></li>
-	</ul>
-</nav>
 
-<section id="about">
-	
-		<h1>About</h1>
-		<p1>
-			Dummy text sections filled with fun lorem ipsum make it easier to swap out one web page, letter, or email version with another. For example, in a Mailchimp bulk email campaign, send these multiple versions during A/B testing to discover which call to action garners the desired response.
-		</p1>
-</section>
-<br>
+	<header>
+		<nav>
+			<ul>
+				<li><a href ="#about"> About </a></li>
+				<li><a href="#projects"> Project </a></li>
+				<li><a href="#contact"> Contact </a></li>
+			</ul>
+		</nav>
+	</header>
 
-<section id="projects">
-	<h1>Projects </h1>
-	<p1>
-		<h4>Weather app</h4>
-	</p1>
-</section>	
+	<section id="about">
+		<div class="container">
+			<h1> Anmol Acharya </h1>
+			<div class="about-content">
+				<img src="images/insta post.png" alt="Anmol Acahrya" id="hero">
+				<div class="about-text">
+					<h2>Web Devloper</h2>
+					<p> Passonaite web devloper</p>
+					<p>I'm constantly learning and improving my skills to deliver the best possible user experiences</p>
+				</div>		
+			</div>
+		</div>
+	</section>
 
-<br>
+	<section id="projects">
+		<div class="container">
+			<h1>Projects</h1>
+		 <div class="project-grid">
+			<div class= "project-card">
+				<h3>Portfolio website <h3>
+				<img src="C:\Users\Acer\Desktop\portfolio-Anmol Acharya\images\Screenshot 2025-11-19 204534.png"id="photoport" alt="Portfolio-website">
+				<p>bla bla bla bla bla bla bla bla bla bla bla blabla bla bla <p>
+			</div>
+			<div class="project-card">
+				<h3>Weather app<h3>
+				<p>bla bla bla bla bla bla bla bla bla bla bla blabla bla bla</p>	
+			</div>
+			<div class="project-card">
+				<h3> Sales Tracker</h3>
+				<p>bla bla bla bla bla bla bla bla bla bla bla blabla bla bla</p>
+			</div>
+		  </div>
+		</div>
+	</section>
 
-<section id ="contact">
-		<h1> Contact</h1>
-		<form>
-			<label for ="name">First name: </label><br>
-			<input type="text" id="name" name="name"><br>
-			<label for ="email">Email: </label><br>
-			<input type="Email" id="email" Email="email"><br>
-			<label for = "textbox">TextBox: </label><br>
-			<textarea  type="textbox" id ="textbox" Textbox="textbox"></textarea>
-			<input type="submit" value="submit">
-			
+	<section id="contact">
+	  <div class="container">
+		<h1>Contact me</h1>
+				<form>
+			<div class="from-platform">
+			<label for="name">Name</label>
+			<input type="text"  id="name" name="name" placeholder=" your name">
+			</div>
 
-		</form>
-</section>
+			<div class="from-platform">
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" placeholder="Your Email">
+			</div>
 
+			<div class="from-platform">
+				<label for="message">Message</label>
+				<textarea id="message" name="message" rows="5" placeholder="Your message here....."></textarea>
+			</div>
+			<button type="submit"> Send Message</button>
+		  </form> 
+	   </div>
+   </section>
+
+   <footer>
+   	<div class="container">
+   		<p>2025 Anmol Acharya. All rights reserved.</p>
+   	</div>
+   </footer>
 </body>
 </html>
